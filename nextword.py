@@ -12,9 +12,8 @@ import time
 
 st.image("download.jpg", use_column_width=True)
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.title("LSTM Next Word Predictor")
+st.title("LSTM Next Word Predictor Real Time Training :)")
 
 # Input: Document text for training
 document = st.text_area(
